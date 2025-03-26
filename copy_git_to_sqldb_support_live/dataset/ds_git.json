@@ -1,0 +1,31 @@
+{
+    "name": "ds_git",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_git",
+            "type": "LinkedServiceReference"
+        },
+        "parameters": {
+            "load_file_name": {
+                "type": "string"
+            }
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "HttpServerLocation",
+                "relativeUrl": {
+                    "value": "itisha89/adf_carsales/refs/heads/main/@{dataset().load_file_name}",
+                    "type": "Expression"
+                }
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

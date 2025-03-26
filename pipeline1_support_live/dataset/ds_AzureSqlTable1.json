@@ -1,0 +1,71 @@
+{
+    "name": "ds_AzureSqlTable1",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_AzureSqlDatabase1",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "Branch_ID",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Dealer_ID",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Model_ID",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Revenue",
+                "type": "decimal",
+                "precision": 15,
+                "scale": 2
+            },
+            {
+                "name": "Units_Sold",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Date_ID",
+                "type": "date"
+            },
+            {
+                "name": "Day",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Month",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "Year",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "BranchName",
+                "type": "varchar"
+            },
+            {
+                "name": "DealerName",
+                "type": "varchar"
+            }
+        ],
+        "typeProperties": {
+            "schema": "dbo",
+            "table": "source_car_sales"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,6 @@
+selected resource name:		copy_git_to_sqldb
+selected resource type:		pipeline
+factory name:			dfcarsales
+factory location:		uksouth
+subscription id:		2ca389c1-fb6f-43a9-967b-802e30fe9573
+time of download (UTC):		Wed, 26 Mar 2025 13:07:35 GMT

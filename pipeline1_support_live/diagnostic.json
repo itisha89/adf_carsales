@@ -1,0 +1,23 @@
+{
+    "now": "2025-03-26T13:07:07.066Z",
+    "perfNow": 75079387.39999999,
+    "diagnosticCorrelation": "570c43bc-d691-446d-964f-4131035ecde9",
+    "source": "DownloadSupportFiles",
+    "environment": {
+        "productName": "adf",
+        "buildVersion": "1.0.022725.8",
+        "environmentType": 3,
+        "resourceName": "dfcarsales",
+        "resourceRegion": "uksouth",
+        "resourceGroup": "rg_car_sales",
+        "subscriptionId": "2ca389c1-fb6f-43a9-967b-802e30fe9573",
+        "sessionId": "QCD6pCVGyQsE0f6/pa+vCA",
+        "operationId": "",
+        "gitType": "live",
+        "loggingKey": "97c4ec95-5aea-4433-8f61-ec52b7574e99"
+    },
+    "additionalInfo": {
+        "selectedResource": "pipeline1",
+        "selectedResourceType": "pipeline"
+    }
+}
